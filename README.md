@@ -4,21 +4,21 @@ CortexAI is a powerful, AI-driven Business Intelligence (BI) assistant designed 
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 CortexAI acts as a bridge between your Tally Prime instance and an AI "brain". It allows business owners and accountants to ask natural language questions like _"Who owes us the most money?"_ or _"What was our net profit last month?"_ and get instant, accurate answers derived directly from their Tally data.
 
 ### Key Features
 
-- **🤖 Conversational Interface**: Interact with Tally via Telegram.
-- **🔌 Model Context Protocol (MCP)**: Native integration for dynamic tool discovery and execution.
-- **📚 Local RAG**: Semantic search for ledger names and injection of custom business rules (e.g., credit policies).
-- **💾 Offline Snapshot Cache**: Access last-known-good data even when Tally is offline.
-- **🛡️ Secure & Private**: Highly configurable user access and local embedding processing.
+- **Conversational Interface**: Interact with Tally via Telegram.
+- **Model Context Protocol (MCP)**: Native integration for dynamic tool discovery and execution.
+- **Local RAG**: Semantic search for ledger names and injection of custom business rules (e.g., credit policies).
+- **Offline Snapshot Cache**: Access last-known-good data even when Tally is offline.
+- **Secure & Private**: Highly configurable user access and local embedding processing.
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 
@@ -83,7 +83,7 @@ CortexAI acts as a bridge between your Tally Prime instance and an AI "brain". I
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 CortexAI is built on a modular "Orchestrator" pattern that coordinates multiple specialized components.
 
@@ -125,7 +125,7 @@ CortexAI is built on a modular "Orchestrator" pattern that coordinates multiple 
 
 ---
 
-## 🔄 The MCP Interaction Flow
+##  The MCP Interaction Flow
 
 CortexAI follows the standardized Model Context Protocol flow for high reliability:
 
@@ -139,7 +139,7 @@ CortexAI follows the standardized Model Context Protocol flow for high reliabili
 
 ---
 
-## 📋 Available Tools
+##  Available Tools
 
 | Tool Name                   | Description                                 |
 | :-------------------------- | :------------------------------------------ |
@@ -155,7 +155,7 @@ CortexAI follows the standardized Model Context Protocol flow for high reliabili
 
 ---
 
-## 📝 Usage Examples
+##  Usage Examples
 
 - **Receivables**: _"Who owes us money right now?"_
 - **Profitability**: _"What was our gross margin for the year?"_
@@ -165,8 +165,7 @@ CortexAI follows the standardized Model Context Protocol flow for high reliabili
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 - **Educational Mode**: Fully compatible with Tally Prime Educational Mode.
 - **TDL-Free**: Does not require any custom TDL (Tally Definition Language) files; uses built-in collections.
-- **Currency**: Formats output in Indian Rupee (₹) by default.
