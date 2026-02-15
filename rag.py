@@ -1,4 +1,3 @@
-# rag.py
 """
 RAG module for Tally BI Bot.
 

@@ -1,4 +1,3 @@
-# snapshot.py
 """
 Lightweight snapshot cache.
 Saves last-known-good results from Tally as JSON files.

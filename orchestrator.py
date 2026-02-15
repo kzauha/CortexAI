@@ -1,4 +1,3 @@
-# orchestrator.py
 """
 Orchestrator — connects to MCP server + RAG + LLM.
 
